@@ -1,5 +1,7 @@
 #basics - How to contribute
 
+First, this is basically a repo of my notes on stuff so I don't really anticipate anyone finding this and wanting to contribute.  But if you do find it and want to contribute, then I am grateful that you decided to help and share!
+
 Use the standard GitHub workflow in the Fork & Pull Model:
 * [GitHub Flow](https://guides.github.com/introduction/flow/)
 * [Fork A Repo](https://help.github.com/articles/fork-a-repo/)
@@ -41,7 +43,7 @@ Use the standard GitHub workflow in the Fork & Pull Model:
   ```
 9.  Submit a pull request from your branch on your fork against `master` on the main repo.
 10.  Respond to comments/questions, make updates to your branch and push the updates to amend the pull request as needed.
-11.  Celebrate when your pull request is merged!
+11.  Celebrate when the pull request is merged!  Seriously though, I'm grateful for the help.
 
 ## Staying up to date:
 
