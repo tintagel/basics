@@ -1,4 +1,4 @@
-#basics - How to contribute
+# basics - How to contribute
 
 First, this is basically a repo of my notes on stuff so I don't really anticipate anyone finding this and wanting to contribute.  But if you do find it and want to contribute, then I am grateful that you decided to help and share!
 
@@ -7,7 +7,7 @@ Use the standard GitHub workflow in the Fork & Pull Model:
 * [Fork A Repo](https://help.github.com/articles/fork-a-repo/)
 * [Using pull requests](https://help.github.com/articles/using-pull-requests/)
 
-##Walkthrough:
+## Walkthrough:
 
 1. Fork the repo
 2. Clone your fork

@@ -1,10 +1,10 @@
-#Homebrew
+# Homebrew
 
 ***The missing package manager for OS X***<sup>[[brew.sh]](http://brew.sh)</sup>
 
 _Homebrew is a free and open-source software package management system that simplifies the installation of software on Apple's OS X operating system._<sup>[[Wikipedia]](https://en.wikipedia.org/wiki/Homebrew_%28package_management_software%29)</sup>
 
-####Installing homebrew
+#### Installing homebrew
 1. Prepare your `.bash_profile` by appending path configuration:
 
 	```
