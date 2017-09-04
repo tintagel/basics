@@ -32,13 +32,35 @@ _Homebrew is a free and open-source software package management system that simp
 ** Do this as a user that is able to use `sudo`, even if your regular user cannot `sudo`
 
 ```
-cd /usr/local
-sudo mkdir homebrew &&
-sudo curl -L https://github.com/Homebrew/brew/tarball/master
-sudo tar xzvf master --strip 1 -C homebrew
-rm master
-cd /usr/local/bin
-sudo ln -s /usr/local/homebrew/bin/brew
+# get, install, and cleanup
+
+$ cd /usr/local
+$ sudo mkdir homebrew &&
+$ sudo curl -L https://github.com/Homebrew/brew/tarball/master
+$ sudo tar xzvf master --strip 1 -C homebrew
+$ rm master
+
+
+# fix filesystem permissions for homebrew
+
+$ sudo chown -R $(whoami) /usr/local/homebrew
+$ sudo chown -R $(whoami) /usr/local/var/homebrew
+$ sudo mkdir -P /usr/local/var/homebrew
+$ sudo chown -R $(whoami) /usr/local/var/homebrew
+$ sudo chown -R $(whoami) /usr/local/bin /usr/local/lib
+
+
+# create symlink to be able to execute homebrew
+
+$ cd /usr/local/bin
+$ sudo ln -s /usr/local/homebrew/bin/brew
+
+
+# check and update the homebrew installation
+
+$ brew doctor
+$ brew update
+$ brew upgrade
 ```
 
 #### How to download a copy of the Ruby install script that is the default homebrew installation method
