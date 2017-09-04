@@ -1,9 +1,9 @@
-#Angular.js
+# Angular.js
 
 
-##installing on MacOS
+## installing on MacOS
 
-###Node.js
+### Node.js
 1. Install Node.js ([https://nodejs.org/en/](https://nodejs.org/en/)):
 
 	```
@@ -12,21 +12,21 @@
 	brew install Node.js
 	```
 
-###bower
+### bower
 1. Install bower ([http://bower.io](http://bower.io)):
 
 	```
 	$ npm install -g bower
 	```
 
-###grunt
+### grunt
 1.	Install grunt-cli
 
 	```
 	$ npm install grunt-cli -g		
 	```
 
-###compass
+### compass
 1. Install compass
 
 	```
@@ -38,7 +38,7 @@
 	$ rbenv rehash
 	```
 
-##Testing your stuff:##
+## Testing your stuff:
 
 While on the feature branch:
 
@@ -67,7 +67,7 @@ While on the feature branch:
 	$ grunt serve
 	```
 
-##Deploy your stuff:##
+## Deploy your stuff:
 
 After your changes are merged:
 
