@@ -23,7 +23,7 @@ Ruby has become popular in the DevOps, DevSecOps, Rugged, and Security communiti
 3. Install some pre-requisites for installing an updated Ruby using `rbenv` ([https://github.com/sstephenson/rbenv](https://github.com/sstephenson/rbenv)):
 
 	```
-	$ brew install rbenv ruby-build autoconf pkg-config gdbm libyaml readline sqlite git openssl  wget
+	$ brew install rbenv ruby-build autoconf pkg-config gdbm libyaml readline sqlite git openssl wget
 	```
 
 4. Update your shell environment by re-reading your `.bash_profile`:
