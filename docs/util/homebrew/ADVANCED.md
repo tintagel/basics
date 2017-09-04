@@ -29,7 +29,7 @@ _Homebrew is a free and open-source software package management system that simp
 	```
 3. Install homebrew [https://docs.brew.sh/Installation.html](https://docs.brew.sh/Installation.html):
 
-** Do this as a user that is able to use `sudo`, even if your regular user cannot `sudo`
+  * Do this as a user that is able to use `sudo`, even if your regular user cannot `sudo`
 
 ```
 # get, install, and cleanup
