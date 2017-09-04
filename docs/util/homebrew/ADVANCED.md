@@ -49,6 +49,8 @@ _Homebrew is a free and open-source software package management system that simp
 	$ sudo chown -R $(whoami) /usr/local/var/homebrew
 	$ sudo mkdir -p /usr/local/etc
 	$ sudo chown -R $(whoami) /usr/local/etc
+	$ sudo mkdir -p /usr/local/Cellar
+  $ sudo chown -R $(whoami) /usr/local/Cellar
 	$ sudo chown -R $(whoami) /usr/local/bin /usr/local/lib
 
 
