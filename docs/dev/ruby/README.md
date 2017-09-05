@@ -35,7 +35,7 @@ Ruby has become popular in the DevOps, DevSecOps, Rugged, and Security communiti
 5. Install a recent version of Ruby using `rbenv` and `ruby-build`:
 
 	```
-	$ rbenv install 2.3.1
+	$ rbenv install 2.3.4
 	```
 
 6. Update `rbenv` to make the latest Ruby available:
@@ -47,7 +47,7 @@ Ruby has become popular in the DevOps, DevSecOps, Rugged, and Security communiti
 7. Set the latest installed version of Ruby as the global default:
 
 	```
-	$ rbenv global 2.3.1
+	$ rbenv global 2.3.4
 	```
 
 8. Update a few more things:
@@ -55,7 +55,7 @@ Ruby has become popular in the DevOps, DevSecOps, Rugged, and Security communiti
 	```
 	$ gem update --system
 	$ rbenv rehash
-	$ gem install aws-sdk-core
+	$ gem install aws-sdk
 	$ gem install pry
 	$ rbenv rehash
 	```
