@@ -24,5 +24,23 @@ Enter passphrase:< CORRECT_PASSPHRASE >
 ssh-rsa < THE-REST-OF-THE-PUBLIC-KEY ... > ==
 ```
 
+# ~/.ssh/config
+
+```
+#### SSH Config File
+
+# SSH key 1
+Host host-1
+        Hostname host1.example.com
+        User user1
+        IdentityFile ~/.ssh/id_rsa-host1 # could put them all in the main .ssh location
+
+# SSH key 2
+Host host-2
+        Hostname host2.example.com
+        User user2
+        IdentityFile ~/.ssh/host2/id_rsa-host2 # could put them each in subfolders
+```
+
 References:
 * https://stackoverflow.com/a/23666831
