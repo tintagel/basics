@@ -29,40 +29,38 @@ _Homebrew is a free and open-source software package management system that simp
 	```
 3. Install homebrew [https://docs.brew.sh/Installation.html](https://docs.brew.sh/Installation.html):
 
-  *Note:* Do this as a user that is able to use `sudo`, even if your regular user cannot `sudo`
+	*Note:* Do this as a user that is able to use `sudo`, even if your regular user cannot `sudo`
 
 	```
 	# get, install, and cleanup
 
 	$ cd /usr/local
-	$ sudo mkdir homebrew &&
-	$ sudo curl -L https://github.com/Homebrew/brew/tarball/master
+	$ sudo mkdir homebrew
+	$ sudo curl -L https://github.com/Homebrew/brew/tarball/master -O
 	$ sudo tar xzvf master --strip 1 -C homebrew
-	$ rm master
+	$ sudo rm master
 
-
-	# fix filesystem permissions for homebrew
+	# fix filesystem permissions & paths for homebrew
 
 	$ sudo chown -R $(whoami) /usr/local/homebrew
-	$ sudo chown -R $(whoami) /usr/local/var/homebrew
-	$ sudo mkdir -P /usr/local/var/
+	$ sudo mkdir -p /usr/local/var/homebrew
 	$ sudo chown -R $(whoami) /usr/local/var
+	$ sudo chown -R $(whoami) /usr/local/var/homebrew  #This shouldn't be needed
 	$ sudo mkdir -p /usr/local/etc
 	$ sudo chown -R $(whoami) /usr/local/etc
 	$ sudo mkdir -p /usr/local/Cellar
-  $ sudo chown -R $(whoami) /usr/local/Cellar
+	$ sudo chown -R $(whoami) /usr/local/Cellar
 	$ sudo mkdir -p /usr/local/opt
 	$ sudo chown -R $(whoami) /usr/local/opt
 	$ sudo mkdir -p /usr/local/share
 	$ sudo chown -R $(whoami) /usr/local/share
+	$ sudo mkdir -p /usr/local/bin /usr/local/lib
 	$ sudo chown -R $(whoami) /usr/local/bin /usr/local/lib
-
 
 	# create symlink to be able to execute homebrew
 
 	$ cd /usr/local/bin
 	$ sudo ln -s /usr/local/homebrew/bin/brew
-
 
 	# check and update the homebrew installation
 
