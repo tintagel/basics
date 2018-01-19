@@ -12,7 +12,17 @@ Also, it is worth knowing how to test that the passphrase you set is working and
 $ ssh-keygen -y -f ~/.ssh/id_rsa
 Enter passphrase: < WRONG_PASSPHRASE >
 Load key "~/.ssh/id_rsa": incorrect passphrase supplied to decrypt private key
+$ echo $?
+255
+```
+
+&#x2196; Note that this will be a non-zero result.  The actual value may vary across OS and ssh-keygen vendors/versions
+
+```
 $ ssh-keygen -y -f ~/.ssh/id_rsa
 Enter passphrase:< CORRECT_PASSPHRASE >
-ssh-rsa < THE-REST-OF-THE-PRIVATE-KEY ... > ==
+ssh-rsa < THE-REST-OF-THE-PUBLIC-KEY ... > ==
 ```
+
+References:
+* https://stackoverflow.com/a/23666831
