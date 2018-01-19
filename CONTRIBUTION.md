@@ -18,7 +18,7 @@ Use the standard GitHub workflow in the Fork & Pull Model:
 3. Configure your remotes:
 
   ```
-  $ cd 1344
+  $ cd basics
   $ git remote add upstream git@github.com:tintagel/basics.git
   ```
 4. [Create an issue](https://github.com/tintagel/basics/issues) that describes the problem you want to solve with your contribution.
