@@ -58,8 +58,8 @@ _Homebrew is a free and open-source software package management system that simp
 	$ sudo chown -R $(whoami) /usr/local/opt
 	$ sudo mkdir -p /usr/local/share
 	$ sudo chown -R $(whoami) /usr/local/share
-	$ sudo mkdir -p /usr/local/bin /usr/local/lib
-	$ sudo chown -R $(whoami) /usr/local/bin /usr/local/lib
+	$ sudo mkdir -p /usr/local/bin /usr/local/sbin /usr/local/lib
+	$ sudo chown -R $(whoami) /usr/local/bin /usr/local/sbin /usr/local/lib
 
 	# create symlink to be able to execute homebrew
 
