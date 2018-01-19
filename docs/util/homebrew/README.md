@@ -25,3 +25,9 @@ _Homebrew is a free and open-source software package management system that simp
 	ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 	```
 4. Happy brewing!
+
+# Homebrew Advanced Installation
+
+***In case you think it is a bad idea to download and directly execute an installation script (which it probably is...)***
+
+Check out the [advanced installation procedure](ADVANCED.md).
