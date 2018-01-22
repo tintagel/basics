@@ -5,6 +5,7 @@ Although `ssh-keygen` has rather a lot of command line options, it is actually q
 GitHub provides a great getting started guide and other resources: 
   * https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/
   * https://help.github.com/articles/connecting-to-github-with-ssh/
+  * https://help.github.com/articles/testing-your-ssh-connection/
   
 Also, it is worth knowing how to test that the passphrase you set is working and correct:
 
