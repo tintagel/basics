@@ -44,4 +44,5 @@ Host host-2
 ```
 
 References:
+* http://man.openbsd.org/OpenBSD-current/man5/ssh_config.5
 * https://stackoverflow.com/a/23666831
