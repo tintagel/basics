@@ -76,10 +76,14 @@ git diff master upstream/master
 
 ```
 git branch -d branch_name
+
+git branch -d branch_name_1 branch_name_2
 ```
 
 #### Remote Branch
 
 ```
 git push <remote_name> :<branch_name>
+
+git push <remote_name> :<branch_name_1> :<branch_name_2>
 ```
