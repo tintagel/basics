@@ -53,3 +53,19 @@
 * https://dev.to/maxlmator/maintaining-different-git-identities
 * https://www.edwardthomson.com/blog/git_conditional_includes.html
 * https://public-inbox.org/git/xmqqbmqzbzh0.fsf@gitster.mtv.corp.google.com/T/
+
+### diff against a remote
+
+```
+git diff @ @{upstream}
+```
+
+```
+git fetch upstream
+git diff master upstream/master
+```
+
+#### References
+* https://stackoverflow.com/questions/1800783/compare-local-git-branch-with-remote-branch
+* https://stackoverflow.com/questions/9834689/comparing-two-branches-in-git
+* https://git-scm.com/docs/git-diff
