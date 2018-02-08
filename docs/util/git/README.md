@@ -69,3 +69,17 @@ git diff master upstream/master
 * https://stackoverflow.com/questions/1800783/compare-local-git-branch-with-remote-branch
 * https://stackoverflow.com/questions/9834689/comparing-two-branches-in-git
 * https://git-scm.com/docs/git-diff
+
+### Delete a branch
+
+#### Local Branch
+
+```
+git branch -d branch_name
+```
+
+#### Remote Branch
+
+```
+git push <remote_name> :<branch_name>
+```
