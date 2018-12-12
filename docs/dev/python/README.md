@@ -27,7 +27,7 @@ Python has become popular in the DevOps, and Scientific communities, among other
 	The rest of the steps may not work unless the steps to install ruby are completed (only because that is the sequence of steps I followed).
 	```
 
-  Based on [pyenv/pyenv/Common build problems](https://github.com/pyenv/pyenv/wiki/Common-build-problems)
+	Based on [pyenv/pyenv/Common build problems](https://github.com/pyenv/pyenv/wiki/Common-build-problems)
 
 	```
 	$ brew install readline xz
