@@ -8,11 +8,11 @@ Python has become popular in the DevOps, and Scientific communities, among other
 1. Prepare your `.bash_profile` by appending path configuration:
 
 	```
-	$ cat <<'EOF' >> ~/.bash_profile
+  $ cat << EOF >> ~/.bash_profile
   # Fix path for PYENV and setup PYENV shims
   export PYENV_ROOT=/usr/local/var/pyenv
   if which pyenv > /dev/null; then eval "$(pyenv init -)"; fi
-	EOF
+  EOF
 	```
 
 2. Update your shell environment by re-reading your `.bash_profile`:
@@ -26,6 +26,12 @@ Python has become popular in the DevOps, and Scientific communities, among other
 	```
 	The rest of the steps may not work unless the steps to install ruby are completed (only because that is the sequence of steps I followed).
 	```
+
+  Based on [pyenv/pyenv/Common build problems](https://github.com/pyenv/pyenv/wiki/Common-build-problems)
+	```
+	$ brew install readline xz
+	```
+  Should allow it to work.
 
 4. Use homebrew to install `pyenv`:
 
