@@ -2,6 +2,9 @@
 # reads in a file called ssh_users_and_pub_keys_list.txt and creates a user for each user:key pair listed
 # format for ssh_users_and_pub_keys_list.txt is username:rsa_pub_key per line
 
+# set the filename to read below
+file=ssh_users_and_pub_keys_list.txt
+
 # set the name of the group to add the users to below
 group=standard_group
 
@@ -15,4 +18,4 @@ while read line; do
   echo $key >>  /home/$user/.ssh/authorized_keys
   sudo chmod 0600 /home/$user/.ssh/authorized_keys
   sudo chown -R $user:$user /home/$user/.ssh
-done <ssh_users_and_pub_keys_list.txt
+done <$file
