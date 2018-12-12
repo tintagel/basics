@@ -28,10 +28,12 @@ Python has become popular in the DevOps, and Scientific communities, among other
 	```
 
   Based on [pyenv/pyenv/Common build problems](https://github.com/pyenv/pyenv/wiki/Common-build-problems)
+
 	```
 	$ brew install readline xz
 	```
-  Should allow it to work.
+
+	Should allow it to work.
 
 4. Use homebrew to install `pyenv`:
 
