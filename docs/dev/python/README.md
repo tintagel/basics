@@ -31,6 +31,7 @@ Python has become popular in the DevOps, and Scientific communities, among other
 
 	```
 	$ brew install readline xz
+	sudo installer -pkg /Library/Developer/CommandLineTools/Packages/macOS_SDK_headers_for_macOS_10.14.pkg -target /
 	```
 
 	Should allow it to work.
