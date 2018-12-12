@@ -9,7 +9,7 @@ Python has become popular in the DevOps, and Scientific communities, among other
 
 	```
   $ cat << EOF >> ~/.bash_profile
-  # Fix path for PYENV and setup PYENV shims
+  #Fix path for PYENV and setup PYENV shims
   export PYENV_ROOT=/usr/local/var/pyenv
   if which pyenv > /dev/null; then eval "$(pyenv init -)"; fi
   EOF
