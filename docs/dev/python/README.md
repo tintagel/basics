@@ -8,11 +8,11 @@ Python has become popular in the DevOps, and Scientific communities, among other
 1. Prepare your `.bash_profile` by appending path configuration:
 
 	```
-  $ cat << EOF >> ~/.bash_profile
-  #Fix path for PYENV and setup PYENV shims
-  export PYENV_ROOT=/usr/local/var/pyenv
-  if which pyenv > /dev/null; then eval "$(pyenv init -)"; fi
-  EOF
+	$ cat << EOF >> ~/.bash_profile
+	#Fix path for PYENV and setup PYENV shims
+	export PYENV_ROOT=/usr/local/var/pyenv
+	if which pyenv > /dev/null; then eval "$(pyenv init -)"; fi
+	EOF
 	```
 
 2. Update your shell environment by re-reading your `.bash_profile`:
